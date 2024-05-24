@@ -15,6 +15,8 @@ app.use(express.json());
 app.get('/', blog.get);
 // Setto la rotta "/posts" che dovrà ritornare una lista di posts
 app.get('/posts', blog.get);
+// Setto la rotta "/posts" in POST
+app.post('/posts', blog.post);
 
 app.listen(port, () => {
     console.log(`Server avviato su http://localhost:${port}`);

@@ -16,7 +16,7 @@ module.exports = {
                 let html = '<h1>Crypto Blog</h1><div>';
                 posts.forEach(({ title, content, image, tags }) => {
                     html +=
-                        `<div>
+                        `<section>
                         <img style='width: 300px' src='${image}'></img>
                         <h3>${title}</h3>
                         <p>${content}</p>
@@ -27,12 +27,19 @@ module.exports = {
                     });
                     html += `</ul></div><hr>`;
                 });
-                html += '</div>';
+                html += '</section>';
                 response.send(html);
             },
             json: () => {
                 response.json(posts);
             }
         })
+    },
+    post: (request, response) => {
+        console.log(request.body)
+        //leggo il file posts.json (già parsato) e lo assegno ad una variabile
+        const posts = readJSONData('posts');
+        writeJSONData('posts', [...posts, request.body[0]]);
+        response.send(`Inviato il post ${request.body[0]}`)
     }
 }
