@@ -13,7 +13,8 @@ app.use(express.json());
 
 // Setto la rotta "/" home dove stampo un messaggio in pagina 
 app.get('/', blog.get);
-
+// Setto la rotta "/posts" che dovrà ritornare una lista di posts
+app.get('/posts', blog.get);
 
 app.listen(port, () => {
     console.log(`Server avviato su http://localhost:${port}`);
