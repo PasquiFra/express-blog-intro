@@ -2,7 +2,7 @@
     {
         "title": "Introduction to Bitcoin",
         "content": "Bitcoin is a decentralized digital currency that you can buy, sell, and exchange directly, without an intermediary like a bank.",
-        "image": "https://example.com/images/intro-to-bitcoin.jpg",
+        "image": "bitcoin.png",
         "tags": [
             "Bitcoin",
             "Cryptocurrency",
@@ -12,7 +12,7 @@
     {
         "title": "How Bitcoin Mining Works",
         "content": "Bitcoin mining is the process by which new bitcoins are entered into circulation, and it is also a critical component of the maintenance and development of the blockchain ledger.",
-        "image": "https://example.com/images/bitcoin-mining.jpg",
+        "image": "btc-mining.jpg",
         "tags": [
             "Bitcoin",
             "Mining",
@@ -22,7 +22,7 @@
     {
         "title": "Bitcoin vs Ethereum",
         "content": "While both Bitcoin and Ethereum operate on the blockchain technology, they have different purposes and design philosophies.",
-        "image": "https://example.com/images/bitcoin-vs-ethereum.jpg",
+        "image": "btc-eth.jpg",
         "tags": [
             "Bitcoin",
             "Ethereum",
@@ -32,7 +32,7 @@
     {
         "title": "The Future of Bitcoin",
         "content": "Experts are divided on what the future holds for Bitcoin, but there is no denying its influence on the financial world.",
-        "image": "https://example.com/images/future-of-bitcoin.jpg",
+        "image": "bitcoin.png",
         "tags": [
             "Bitcoin",
             "Future",
@@ -42,7 +42,7 @@
     {
         "title": "Understanding Bitcoin Wallets",
         "content": "Bitcoin wallets are digital wallets that store your private keys, enabling you to send and receive bitcoins and monitor your balance.",
-        "image": "https://example.com/images/bitcoin-wallets.jpg",
+        "image": "btc-wallet.png",
         "tags": [
             "Bitcoin",
             "Wallets",
@@ -52,7 +52,7 @@
     {
         "title": "Introduction to Ethereum",
         "content": "Ethereum is an open-source, blockchain-based platform that enables developers to build and deploy decentralized applications (dApps).",
-        "image": "https://example.com/images/intro-to-ethereum.jpg",
+        "image": "eth.png",
         "tags": [
             "Ethereum",
             "Blockchain",
@@ -62,7 +62,7 @@
     {
         "title": "How Ethereum Smart Contracts Work",
         "content": "Smart contracts are self-executing contracts with the terms of the agreement directly written into code. They run on the Ethereum blockchain.",
-        "image": "https://example.com/images/ethereum-smart-contracts.jpg",
+        "image": "eth-contract.png",
         "tags": [
             "Ethereum",
             "Smart Contracts",
@@ -72,7 +72,7 @@
     {
         "title": "Ethereum 2.0: What You Need to Know",
         "content": "Ethereum 2.0 is an upgrade to the Ethereum blockchain that aims to improve the scalability, security, and sustainability of the network.",
-        "image": "https://example.com/images/ethereum-2.0.jpg",
+        "image": "eth.png",
         "tags": [
             "Ethereum",
             "Ethereum 2.0",
@@ -82,7 +82,7 @@
     {
         "title": "Ethereum vs Cardano",
         "content": "Both Ethereum and Cardano are blockchain platforms that support smart contracts and dApps, but they have different approaches and features.",
-        "image": "https://example.com/images/ethereum-vs-cardano.jpg",
+        "image": "eth-ada.jpg",
         "tags": [
             "Ethereum",
             "Cardano",
@@ -92,7 +92,7 @@
     {
         "title": "Understanding Ethereum Gas Fees",
         "content": "Gas fees are the transaction fees that users pay to miners on the Ethereum blockchain to have their transactions included in a block.",
-        "image": "https://example.com/images/ethereum-gas-fees.jpg",
+        "image": "eth-gas.png",
         "tags": [
             "Ethereum",
             "Gas Fees",

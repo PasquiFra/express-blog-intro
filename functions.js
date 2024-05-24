@@ -1,8 +1,11 @@
+const path = require("path");
+const fs = require("fs");
+
 // La funzione readJSONfile che hai scritto legge un file JSON dal file system e restituisce i suoi contenuti come un oggetto JavaScript
 const readJSONData = (fileName) => {
 
     //determino il path del file
-    const filePath = path.join(__dirname, fileName + '.json');
+    const filePath = path.join(__dirname, 'data', fileName + '.json');
 
     // leggo il contenuto del file
     const fileData = fs.readFileSync(filePath, "utf-8");
@@ -15,7 +18,7 @@ const readJSONData = (fileName) => {
 const writeJSONData = (fileName, newData) => {
 
     //determino il path del file
-    const filePath = path.join(__dirname, fileName + '.json');
+    const filePath = path.join(__dirname, 'data', fileName + '.json');
 
     //setto l'oggetto Javascript da strasformare in stringa JSON
     const fileString = JSON.stringify(newData);
@@ -23,3 +26,8 @@ const writeJSONData = (fileName, newData) => {
     // scrittura della stringa JSON nel file di destinazione
     fs.writeFileSync(filePath, fileString);
 }
+
+module.exports = {
+    readJSONData,
+    writeJSONData
+};
