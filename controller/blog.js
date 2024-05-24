@@ -36,10 +36,9 @@ module.exports = {
         })
     },
     post: (request, response) => {
-        console.log(request.body)
         //leggo il file posts.json (già parsato) e lo assegno ad una variabile
         const posts = readJSONData('posts');
         writeJSONData('posts', [...posts, request.body[0]]);
-        response.send(`Inviato il post ${request.body[0]}`)
+        response.send(`Post inviato correttamente`)
     }
 }
