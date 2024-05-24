@@ -13,20 +13,19 @@ module.exports = {
         // Setto la risposta da inviare al client a seconda del formato che viene richiesto
         response.format({
             html: () => {
-                let html = '<div>';
+                let html = '<h1>Crypto Blog</h1><div>';
                 posts.forEach(({ title, content, image, tags }) => {
                     html +=
                         `<div>
+                        <img style='width: 300px' src='${image}'></img>
                         <h3>${title}</h3>
-                        <img style='width=75px'>${image}</img>
                         <p>${content}</p>
-                        </br>
                     `;
                     html += '<ul>'
                     tags.forEach(tag => {
                         html += `<li>${tag}</li>`
                     });
-                    html += `</ul></div>`;
+                    html += `</ul></div><hr>`;
                 });
                 html += '</div>';
                 response.send(html);
