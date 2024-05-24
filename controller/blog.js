@@ -1,3 +1,6 @@
+//importo le funzioni di read e write in functions.js
+const { readJSONData, writeJSONData } = require('./functions')
+
 module.exports = {
     get: (request, response) => {
         if (request.url === "/") {
